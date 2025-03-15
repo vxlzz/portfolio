@@ -1,0 +1,79 @@
+/* Global Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav li {
+  display: inline;
+}
+
+body {
+  font-family: "Inter", serif;
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Homepage */
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.infobox {
+  display: flex;
+}
+
+.infobox .projects,
+.work-experience,
+.education {
+  width: 33%;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-container blockquote {
+  border-style: solid;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infobox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infobox .projects,
+  .work-experience,
+  .education {
+    width: 100%;
+  }
+
+  .reviews-container {
+    flex-direction: column;
+  }
+}
