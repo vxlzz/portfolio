@@ -1,6 +1,6 @@
 # Basic HTML Website
 
-A project for roadmap.sh, more info: [https://roadmap.sh/projects/basic-html-website]
+A project for roadmap.sh, more info: https://roadmap.sh/projects/basic-html-website
 
 ## Goal
 
