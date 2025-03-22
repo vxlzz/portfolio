@@ -7,3 +7,4 @@ This is an archive of all my projects completed on roadmap.sh
 [Changelog Component](https://roadmap.sh/projects/changelog-component)
 [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
 [Datepicker UI](https://roadmap.sh/projects/datepicker-ui)
+[Image Grid Layout](https://roadmap.sh/projects/image-grid)
