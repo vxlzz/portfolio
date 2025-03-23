@@ -13,3 +13,4 @@ This is an archive of all my projects completed on roadmap.sh
 | [Image Grid Layout](https://roadmap.sh/projects/image-grid) | Creating a simple image grid with CSS | Using the CSS grid layout to create more involved layouts |
 | [Tooltip UI](https://roadmap.sh/projects/tooltip-ui) | Creating dynamic tooltips | Increasing interactivity with various elements without using JS, making use of transition effects |
 | [Simple Tabs](https://roadmap.sh/projects/simple-tabs) | Creating simple tab functionality | Basic DOM manipulation and event handling in JavaScript |
+| [Cookie Consent](https://roadmap.sh/projects/cookie-consent) | Create a simple cookie consent overlay | DOM Manip and event handling in JS, as well as utilizing local cookie storage |
