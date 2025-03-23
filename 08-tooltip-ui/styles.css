@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  font-size: 20px;
+}
+
+.navigation {
+  border-style: solid;
+  border-radius: 15px;
+  padding: 25px;
+}
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  position: relative;
+}
+
+.tooltext {
+  font-size: 14px;
+  visibility: hidden;
+  z-index: 1;
+  width: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 125%;
+  opacity: 0;
+  height: 0;
+  transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+.tooltext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltext {
+  visibility: visible;
+  opacity: 0.9;
+  height: 40px;
+}
