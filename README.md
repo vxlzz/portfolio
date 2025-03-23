@@ -12,3 +12,4 @@ This is an archive of all my projects completed on roadmap.sh
 | Accessible Form UI | A form including various different fields | Focusing on accessibility, readability and good user experience |
 | [Image Grid Layout](https://roadmap.sh/projects/image-grid) | Creating a simple image grid with CSS | Using the CSS grid layout to create more involved layouts |
 | [Tooltip UI](https://roadmap.sh/projects/tooltip-ui) | Creating dynamic tooltips | Increasing interactivity with various elements without using JS, making use of transition effects |
+| [Simple Tabs](https://roadmap.sh/projects/simple-tabs) | Creating simple tab functionality | Basic DOM manipulation and event handling in JavaScript |
