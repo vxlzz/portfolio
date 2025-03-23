@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.tab-container {
+  width: 768px;
+  border: solid;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.tabs {
+  display: flex;
+}
+
+button {
+  background-color: white;
+  border-style: none;
+  color: lightgray;
+  border-color: black;
+  padding: 5px;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.tab-container .tab-content {
+  text-align: left;
+  display: none;
+  padding: 10px;
+}
+
+.tab-container .tab-infoblock {
+  display: flex;
+  background-color: black;
+  color: white;
+  margin: 10px;
+  border-radius: 20px;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-container .active {
+  display: block;
+}
+
+.tabs .active {
+  border-bottom: solid;
+  color: black;
+}
